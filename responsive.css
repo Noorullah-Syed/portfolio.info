@@ -1,0 +1,358 @@
+@media only screen and (max-width:1013px){
+    .nav-bar{
+        
+        display:flex;
+        flex-direction: column;   
+        justify-content: left; 
+        align-items:start;
+        height: 150px;
+        width: 160px;
+        margin-top: 3rem;
+        margin-left:6rem;
+
+    }
+
+    .resp-photo{
+        display: none;
+    }
+    .slidein-effect{
+   
+        position: absolute;
+      top: 0;
+      right: -100%; /* Initially position the picture outside the frame */
+      width: 200px; /* Adjust the width of the picture */
+      height: 200px; /* Adjust the height of the picture */
+      /* background-image: url('./images/bgrem-use2.png');     Add your picture as a background */
+      background-size: cover; /* Ensure the background covers the entire area */
+      /* background-position: center; Center the background */
+      transition: right 1s ease; /* Apply transition effect */
+    }
+    .animate-slide {
+        animation: slide 1s ease forwards; /* Animation to slide the picture */
+      }
+      
+      @keyframes slide {
+        0% {
+            right: -100%; /* Start position, outside the frame */
+          }
+          100% {
+            right: 0; /* End position, inside the frame */
+          }
+      }
+    
+    /* .resp-nav-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+    } */
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:end;
+
+       
+    }
+    .nav-logo{
+        height:70px;
+        width: 45px;
+    }
+    .burger{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right:2%;
+
+    }
+    .burger i{
+        font-size: 1.8rem;
+    }
+    .nav-items{
+        height: 230px;
+        transition: all 0.5s ease-out;
+    }
+    .logo{
+        height: 36px;
+        width: 110px;
+    }
+    
+    .h-nav{
+        height: 70px;
+    }
+    /* .h1-nav{
+        height: 70px;
+    } */
+    .v-class{
+        opacity: 0;
+    }
+
+    .hero{
+        height: 90%;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 2rem;
+
+        
+       
+    }
+
+    .res-frame{
+        margin-bottom: 6rem;
+        border-radius: 50%;
+        /* background-color:#0000; */
+        display: none;
+       
+    }
+    .res-hero{
+        height: 55%;
+    }
+    
+    .photo{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        /* border: 1px solid #31E1F7; */
+    }
+    .resp-text p{
+        font-size: 1rem;
+        margin-top:0px;
+        margin-left:3.5px;
+
+    
+    }
+    .hero2{
+        height: 55%;
+        gap: 1rem;
+       
+
+    }
+    .photo2{
+        height: 200px;
+        width: 200px;
+        border: 2px solid #31E1F7 ;
+        background-image: url(./images/Profile\ Pic.jpg);
+        margin-bottom: 8rem;
+        border-radius: 20%;
+        margin-right: 1rem;
+        background-position: 60%;
+    }
+    .text{
+        height: 80%; 
+ 
+    }
+
+    .text-res h5{
+        font-size: 2rem;
+    }
+    .text-res{
+        height: 310px;
+        margin-left: 2rem;
+    }
+    .text-res p{
+        font-size: 0.8rem;
+    }
+    .contact-info{
+        font-size: small;
+        height: 100px;
+        width: 250px;
+    }
+    .label{
+        width: 60px;
+    }
+    
+    .resp-text h5{
+        font-size: 3rem;
+        margin-bottom: 0%;
+    }
+    .res-frame{
+        height: 200px;
+        width: 200px;
+        margin-right: 2rem;
+        margin-top: 3rem;
+        
+
+
+    }
+    #hello{
+        margin: 0;
+    }
+
+.buttons{
+    height: 50px;
+    display: flex;
+    width: 200px;
+    gap: 1rem;
+    
+
+   }
+
+   .contact-logos1{
+    height: 50px;
+    width: 100px;
+
+   
+    
+
+   }
+   .contact-logos1 #social-logo3 img{
+        height:40px;
+        width: 40px;
+   }
+   .res-button{
+    height: 30px;
+    width: 80px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+
+   
+   }
+   .res-button .contact{
+    font-size: 10px;
+
+
+   }
+   .res-button .contact i{
+    font-size: 10px;
+   }
+
+   .Academics{
+        display: flex;
+        flex-direction: column;
+        height: 170%;
+        align-items: center;
+        justify-content:space-evenly;
+        margin-bottom: 3rem;
+
+   }
+   .academic-cards{
+    width: 90%;
+    height: 400px;
+   }
+
+   .img1{
+    height: 50%;
+    width: 80%;
+   }
+   
+   .skill-set{
+    height: 180%;
+    margin-bottom:1rem;
+   }
+   .skill-text{
+    height: 40%;
+   
+   }
+   .skill-text p{
+    font-size: 20px;
+   }
+   .skill{
+    width: 90%;
+   }
+   .mongo-bor{
+    margin-top: 1rem;
+   }
+   .node-bor{
+    margin-top: 1rem;
+   }
+   .certification{
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+   }
+   .certificate{
+    width: 80%;
+    height: 30%;
+
+   }
+   .certification-last{
+        height: 75%;
+   }
+   .last{
+    margin-bottom:0%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+   }
+   .res-certificate{
+    height: 600px;
+    
+   }
+   .projects{
+    display:flex ;
+    flex-direction: column;
+    height: 160%;
+    align-items: center;
+    justify-content: flex-start ;
+
+    
+
+   }
+   
+   .pro1{
+    height: 55%;
+    width: 80%;
+   }
+   .pro-img{
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+   }
+   .pro1{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:flex-end;
+    align-items: center;
+    /* margin-top: 0%; */
+    border: 2px solid #31E1F7;
+    border-radius: 10%;
+
+    
+    
+    
+   }
+   
+   .pro-text{
+    width: 95%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+   }
+   /* .pro1-img{
+    height: 200px;
+    width: 200px;
+   } */
+   .res-projects{
+    margin: 0%;
+   }
+   .res-android{
+    height: 30%;
+   }
+   .contact-section{
+    height: 120%;
+   }
+   .contact-me p{
+    font-size: 20px;
+    margin-top: 1rem;
+   }
+   /* .res-contact-info{
+    width: 90%;
+   } */
+   .res-contact-details{
+    width: 80%;
+    margin-right: 2rem;
+   }
+   
+   .img2{
+    height: 45%;
+    width: 50%;
+   }
+   .img3{
+    height: 45%;
+    width: 50%;
+   }
+  
+}
